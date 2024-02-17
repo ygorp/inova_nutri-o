@@ -235,7 +235,7 @@
     flex-direction: column;
     width: 100%;
     height: 990px;
-    background-color: var(--background-color);
+    background-color: #FFFFFF;
 }
 
 .blog_titulo {
@@ -280,3 +280,122 @@
     height: 650px;
 }
 
+#contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    background-color: var(--background-color);
+}
+
+.content_contato {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.contato_info,
+.contato_form {
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.contato_info h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 30px 0;
+    color: var(--primary-color);
+}
+
+.contato_info h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--text-color);
+}
+
+.icones_contato {
+    margin: 2rem 0;
+}
+
+.icones_contato i,
+.footer_contato i {
+    font-size: 20px;
+    margin: 5px 0;
+    color: var(--primary-color);
+}
+
+.icones_contato p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 20px 0;
+    color: var(--text-color);
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer_logo img {
+    width: 300px;
+}
+
+.footer_logo h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 19px;
+    font-weight: 800;
+    margin: 30px 0;
+    color: var(--background-color);
+}
+
+.footer_contato h3,
+.footer_institucional h3,
+.footer_especialidades h3,
+.footer_icons h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    color: var(--background-color);
+}
+
+.footer_contato p,
+.footer_especialidades p{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 20px 0;
+    color: var(--background-color);
+}
+
+.footer_institucional a {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 20px 0;
+    color: var(--background-color);
+    text-decoration: none;
+}
